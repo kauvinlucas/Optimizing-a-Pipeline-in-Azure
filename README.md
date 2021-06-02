@@ -1,14 +1,14 @@
 # Optimizing an ML Pipeline in Azure
 
 ## Overview
-This project is part of the Udacity Azure ML Nanodegree.
-In this project, we build and optimize an Azure ML pipeline using the Python SDK and a provided Scikit-learn model.
-This model is then compared to an Azure AutoML run.
+The main goal of this project was to build and optimize an Azure ML pipeline using the Python SDK and a provided Scikit-learn Logistic Regression model to solve a classification problem. Hyperdrive was used to optimize the model. This is then compared to an Azure AutoML run.
+
+This is a fork of the project in Udacity containing starter files and a submission template. A similar template is used for the final project in the Udacity's Azure Machine Learning Engineer Nanodegree program.
 
 ## Summary
-**In 1-2 sentences, explain the problem statement: e.g "This dataset contains data about... we seek to predict..."**
+We used a provided Logistic Regression model and the data related with direct marketing campaigns (phone calls) of a Portuguese banking institution to predict whether or not the client will agree to a bank term deposit. The model was optimized with HyperDrive, reaching a accuracy rate of ~ 90%.
 
-**In 1-2 sentences, explain the solution: e.g. "The best performing model was a ..."**
+In the Azure AutoML, the best performing model was a VotingEnsemble with 91.69% of accuracy, higher than of the HyperDrive model.
 
 ## Scikit-learn Pipeline
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
