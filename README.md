@@ -11,7 +11,10 @@ We used a provided Logistic Regression model and the data related with direct ma
 In the Azure AutoML, the best performing model was a VotingEnsemble with 91.69% of accuracy, higher than of the HyperDrive model.
 
 ## Scikit-learn Pipeline
-**Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
+* The preprocessing steps were already provided in the training script named train.py, which includes helper functions used in the Jupyter Notebook file.
+* The TabularDatasetFactory method was used to create a tabular dataset for Azure Machine Learning.
+* SKLearn estimator was used to setup a training run.
+* 'Accuracy' is the metric used for the random hyperparameter tuning with HyperDrive, and Bandit Policy was used for early termination.
 
 **What are the benefits of the parameter sampler you chose?**
 
