@@ -1,3 +1,6 @@
+[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
+![Azure ML](https://img.shields.io/badge/Microsoft%20Azure-Machine%20Learning-informational)
+
 # Optimizing an ML Pipeline in Azure
 
 ## Overview
@@ -52,7 +55,7 @@ Of course, the added benefit of the AutoML was the explainability  with *model_e
   
 ![alt text](https://raw.githubusercontent.com/kauvinlucas/Optimizing-a-Pipeline-in-Azure/master/Screenshots/feature_importance.PNG "AutoML feature importance graph")
 
-It is important to acknowledge that the Azure AutoML handled the regularization and hyperparameter optimization, model complexity limitation and cross-validation practices by itself in the imbalanced classifaction problem in order to prevent over-fitting, so this may explain the performance advantage over the model tuned by HyperDrive.
+It is important to acknowledge that the Azure AutoML handled the regularization and hyperparameter optimization, model complexity limitations and cross-validation practices by itself in the imbalanced classifaction problem in order to prevent over-fitting, so this may explain the performance advantage over the model tuned by HyperDrive.
 
 ## Sources:
 * Train scikit-learn models at scale with Azure Machine Learning: [link](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-train-scikit-learn?view=azure-ml-py)
