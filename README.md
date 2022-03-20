@@ -1,7 +1,10 @@
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
-![Azure ML](https://img.shields.io/badge/Microsoft%20Azure-Machine%20Learning-informational)
+[![Azure ML](https://img.shields.io/badge/Microsoft%20Azure-Machine%20Learning-informational)](https://azure.microsoft.com/en-us/services/machine-learning/)
 
 # Optimizing an ML Pipeline in Azure
+* 🇺🇸 [See project article here](https://www.kauvinlucas.com/projects/optimizing-a-pipeline-in-azure/en.html)
+* 🇪🇸 [Ver el artículo del proyecto aquí](https://www.kauvinlucas.com/projects/optimizing-a-pipeline-in-azure/es.html)
+* 🇧🇷 [Veja o artigo do projeto aquí](https://www.kauvinlucas.com/projects/optimizing-a-pipeline-in-azure/pt.html)
 
 ## Overview
 The main goal of this project was to build and optimize an Azure ML pipeline using the Python SDK and a provided Scikit-learn Logistic Regression model to solve a classification problem. Hyperdrive was used to optimize the model. This was then compared to an Azure AutoML run to see which of these approaches returns the best tuned model.
